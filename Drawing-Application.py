@@ -8,7 +8,7 @@ root.title("Simple Drawing Application")
 canvas = tk.Canvas(root, bg='white', width=600, height=400)
 canvas.pack()
 
-# Variable to hold the previous mouse position
+# Variable to hold the previous mouse position.
 old_x = None
 old_y = None
 
